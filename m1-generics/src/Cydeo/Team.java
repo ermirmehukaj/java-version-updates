@@ -8,6 +8,7 @@ public class Team<T extends Player> { // any class you an put in the team.Should
     private String name;
 
 
+
     private List<T> members = new ArrayList<>();
 
     public Team(String name) {
