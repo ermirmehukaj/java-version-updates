@@ -3,7 +3,7 @@ package Cydeo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team<T> {
+public class Team<T extends Player> { // any class you an put in the team.Should accept only Player class and subclasses
 
     private String name;
 
