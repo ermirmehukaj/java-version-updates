@@ -18,9 +18,9 @@ public class Main {
 
     }
 
-    private static void printDoubled(ArrayList items) {
-    for (Object each : items){
-        System.out.println((Integer)each *2);
+    private static void printDoubled(ArrayList<Integer> items) {
+    for (Integer each : items){
+        System.out.println(each *2);
     }
     }
 }
