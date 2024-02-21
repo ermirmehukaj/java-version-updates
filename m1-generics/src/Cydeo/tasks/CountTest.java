@@ -16,7 +16,7 @@ public class CountTest {
         int count = 0;
         for(T element : c){
             if(p.test(element)){
-                ++count
+                ++count;
             }
         }
         return count;
