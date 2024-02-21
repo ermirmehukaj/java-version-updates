@@ -57,5 +57,9 @@ private static void calculate(double x,double y, Operation operation){
                 System.out.println(x/y);
                 break;
         }
+
+    System.out.println("how to retrive the constat value");
+    System.out.println(Currency.PENNY.getValue());
+    System.out.println(Currency.QUARTER.ordinal());
 }
 }
