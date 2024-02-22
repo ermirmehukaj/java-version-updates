@@ -1,6 +1,5 @@
 package cydeo;
 
 public interface Sorting {
-
-    void sort();
+    public void sort();
 }
