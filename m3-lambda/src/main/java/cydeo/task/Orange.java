@@ -1,5 +1,6 @@
-package cydeo;
+package cydeo.task;
 
+import cydeo.Color;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

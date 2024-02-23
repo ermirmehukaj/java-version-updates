@@ -1,4 +1,6 @@
-package cydeo;
+package cydeo.task;
+
+import cydeo.task.Orange;
 
 @FunctionalInterface
 public interface OrangeFormater {

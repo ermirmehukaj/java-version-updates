@@ -1,4 +1,8 @@
-package cydeo;
+package cydeo.task;
+
+import cydeo.Color;
+import cydeo.task.Orange;
+import cydeo.task.OrangeFormater;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +13,7 @@ public class OrangeTest {
 
 
         List<Orange> inventory = new ArrayList<>();
-        inventory.add(new Orange(300,Color.GREEN));
+        inventory.add(new Orange(300, Color.GREEN));
         inventory.add(new Orange(100,Color.RED));
         inventory.add(new Orange(200,Color.GREEN));
         inventory.add(new Orange(50,Color.GREEN));
