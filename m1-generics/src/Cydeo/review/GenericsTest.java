@@ -19,8 +19,11 @@ public class GenericsTest {
        teacherList.add(new Teacher("ALbus",210));
         teacherList.add(new Teacher("Severus",202));
 
+
+
 printInfo(studentList);
 printInfo(teacherList);
+
 
     }
     public static <T extends Person> void printInfo(List<T> students){
