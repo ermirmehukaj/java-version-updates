@@ -1,7 +1,7 @@
 package com.cydeo;
 import lombok.*;
 
-
+@Getter
 @Setter
 @ToString
 @AllArgsConstructor
