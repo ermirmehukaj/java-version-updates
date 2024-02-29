@@ -14,11 +14,12 @@ public class CarTest {
         System.out.println(c1.get().getModel());
 
         Supplier<Car> c2 = Car::new;
-        System.out.println(c1.get().getModel());
+        System.out.println(c2.get().getModel());
 
         // One argument constructor
         Function<Integer,Car> f1 = model -> new Car(model);
         Function<Integer,Car> f2 = Car::new;
+        System.out.println(f2.apply(2).getModel());
 
         //Two Argument Constructor
 
