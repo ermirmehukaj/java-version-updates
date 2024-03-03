@@ -2,6 +2,7 @@ package cydeo.review;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class CarTest {
     public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class CarTest {
 
         System.out.println("Behavior Parameteriaztional");
 
-        System.out.println(filter(carList, new CarFastPredicate()));
+        System.out.println(filter(carList,new CarNewPredicate()));
         System.out.println(filter(carList, new CarNewPredicate()));
 
         System.out.println("Fast Cars - Lambda");
