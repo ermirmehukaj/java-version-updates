@@ -15,6 +15,10 @@ public class CarTest {
         carList.add(new Car("BMW", 210, 2020));
         carList.add(new Car("Nisan", 150, 2010));
 
+
+        carList.forEach(car -> System.out.println(car));
+
+
         System.out.println("Traditional");
 
         System.out.println(filterFastCars(carList));
